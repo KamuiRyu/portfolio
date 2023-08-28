@@ -1,4 +1,3 @@
-
 'use client'
 
 import React from "react";
@@ -6,7 +5,7 @@ import useNavbar from "./useNavbar";
 import "../../styles/components/Sidebar.css";
 import Link from "next/link";
 
-export default function Navbar() {
+const Navbar = () => {
   const { pathname, navData } = useNavbar();
   return (
     <nav
@@ -37,3 +36,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
+export default Navbar;
