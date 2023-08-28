@@ -11,7 +11,7 @@ const Socials = () => {
             key={index}
             href={social.path}
             className="hover:text-accent transition-all duration-300"
-            target="_black" rel="external"
+            target="_blank" rel="external"
             alt={`Profile ${social.name}`}
           >
             {social.icon}
